@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home-coworking</title>
+        <link href="./src/output.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header
+            class="lg:py-4 py-6 fixed w-full top-0 z-40 shadow-md bg-[#F7F5F1]"
+        >
+            <div class="container">
+                <div class="flex justify-between items-center">
+                    <div class="flex">
+                        <a href="#!" class="flex items-center">
+                            <img
+                                class="mr-[5px]"
+                                src="./src/images/Logo.png"
+                                alt="Logo"
+                            />
+                            <p
+                                class="text-[24px] font-semibold text-[var(--color-text-heading)]"
+                            >
+                                Pollock
+                            </p>
+                        </a>
+                    </div>
+                    <nav class="flex items-center">
+                        <ul
+                            class="lg:flex hidden text-[15px] font-medium uppercase gap-[30px]"
+                        >
+                            <li>
+                                <a
+                                    class="relative text-[var(--color-text-heading)]"
+                                    href="#!"
+                                >
+                                    Home
+                                    <span
+                                        class="absolute -top-2 left-1/2 -translate-x-1/2 w-[10px] h-[10px] bg-[#34C635] rounded-full"
+                                    ></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Services</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >About</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Pages</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Blog</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="#!"
+                                    class="text-[var(--color-text-desc)] relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[2px] hover:after:scale-x-100 after:scale-x-0 after:bg-black after:transition-all after:duration-300"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="flex items-center gap-[30px]">
+                        <ul class="md:flex hidden items-center gap-[20px]">
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        src="./src/images/Search.svg"
+                                        alt="Icon search"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!" class="relative">
+                                    <img
+                                        src="./src/images/Bag 2.svg"
+                                        alt="Icon Bag"
+                                    />
+                                    <span
+                                        class="absolute top-0 right-0 w-[10px] h-[10px] bg-[#EF3737] rounded-full border-[2px] border-white"
+                                    ></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="relative pt-[136px] pb-[100px] bg-[#F7F5F1]">
+                <div
+                    class="absolute top-30 left-5 max-xl:top-50 max-[960px]:hidden flex items-end gap-[10px]"
+                >
+                    <div
+                        class="relative w-[200px] h-[200px] max-xl:w-[120px] max-xl:h-[120px] bg-[#FFC623] rounded-tl-[50%] rounded-tr-[50%] rounded-bl-[50%] overflow-hidden"
+                    >
+                        <img
+                            class="absolute bottom-0 object-cover scale-120"
+                            src="./src/images/avt-01.png"
+                            alt="avt-01"
+                        />
+                    </div>
+                    <div
+                        class="w-[80px] h-[80px] bg-[#886CFF] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%]"
+                    ></div>
+                </div>
+                <div
+                    class="absolute bottom-10 left-30 max-xl:left-20 max-[960px]:hidden flex items-end gap-[10px]"
+                >
+                    <div
+                        class="w-[80px] h-[80px] bg-[#61DCDF] rounded-tr-[50%] rounded-tl-[50%] rounded-bl-[50%]"
+                    ></div>
+                    <div
+                        class="relative w-[130px] h-[130px] max-xl:w-[110px] max-xl:h-[110px] bg-[#5899FD] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%] overflow-hidden"
+                    >
+                        <img
+                            src="./src/images/avt-03.png"
+                            class="absolute bottom-[-59px] object-cover scale-300"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div
+                    class="absolute right-10 max-xl:right-5 max-xl:top-30 max-[960px]:hidden flex items-end gap-[10px]"
+                >
+                    <div
+                        class="relative w-[130px] h-[130px] max-xl:w-[110px] max-xl:h-[110px] bg-[#9083D5] rounded-tl-[50%] rounded-tr-[50%] rounded-bl-[50%] overflow-hidden"
+                    >
+                        <img
+                            class="absolute bottom-[-40px] scale-270 object-cover"
+                            src="./src/images/avt-03.png"
+                            alt="avt-03"
+                        />
+                    </div>
+                    <div
+                        class="w-[60px] h-[60px] bg-[#FFC0EC] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%]"
+                    ></div>
+                </div>
+                <div
+                    class="absolute right-30 bottom-20 max-[960px]:hidden flex items-end gap-[10px]"
+                >
+                    <div
+                        class="w-[70px] h-[70px] bg-[#4F77FF] rounded-tl-[50%] rounded-tr-[50%] rounded-bl-[50%]"
+                    ></div>
+                    <div
+                        class="relative w-[170px] h-[170px] max-xl:w-[120px] max-xl:h-[120px] bg-[#2FD8E4] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%] overflow-hidden"
+                    >
+                        <img
+                            class="absolute bottom-0 scale-180 object-cover"
+                            src="./src/images/avt-02.png"
+                            alt="avt-02"
+                        />
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="text-center">
+                        <h1
+                            class="text-[72px] max-xl:text-[60px] max-sm:text-[50px] font-medium leading-[78px] -tracking-[2px] text-[var(--color-text-heading)]"
+                        >
+                            Everything we do to <br />
+                            make
+                            <span class="text-[var(--color-primary)]"
+                                >work better.</span
+                            >
+                        </h1>
+                        <p
+                            class="mt-[39px] font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)]"
+                        >
+                            Find the right space, services, and support, so your
+                            business and <br />
+                            its people can work their way, every day.
+                        </p>
+                        <div
+                            class="mt-[70px] flex gap-[10px] justify-center max-sm:grid max-sm:grid-cols-1 max-sm:space-y-10"
+                        >
+                            <div>
+                                <button class="btn max-sm:w-full">
+                                    Book Now
+                                </button>
+                            </div>
+                            <div
+                                class="flex items-center gap-[16px] max-sm:justify-center"
+                            >
+                                <div
+                                    class="w-[52px] h-[52px] flex justify-center items-center rounded-full bg-[var(--color-main)] shdow"
+                                >
+                                    <img
+                                        src="./src/images/fi_play.svg"
+                                        alt="arrow-purple-right"
+                                    />
+                                </div>
+                                <p
+                                    class="text-[15px] font-normal leading-[24px] -tracking-[0.3px] text-[var(--color-text-heading)]"
+                                >
+                                    How It Works
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mt-[120px]">
+                <div class="container">
+                    <div>
+                        <h2
+                            class="text-[48px] font-medium leading-[56px] -tracking-[2px] text-[var(--color-text-heading)] text-center"
+                        >
+                            From a single desk to a whole building. The choice
+                            is yours.
+                        </h2>
+                        <p
+                            class="mt-[30px] font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)] text-center"
+                        >
+                            We provide office space that’s flexible to your
+                            needs and fully customisable.
+                        </p>
+                        <div class="mt-[80px]">
+                            <ul
+                                class="flex justify-center gap-[30px] max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1"
+                            >
+                                <li
+                                    class="p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
+                                >
+                                    <div
+                                        class="w-[90px] h-[90px] bg-[#dcd9f3] flex items-center justify-center rounded-full mx-auto"
+                                    >
+                                        <img
+                                            src="./src/images/Icon-01.svg"
+                                            alt="office"
+                                        />
+                                    </div>
+                                    <p
+                                        class="mt-[38px] text-[22px] font-normal leading-[32px] -tracking-[1px] text-[#120F1F]"
+                                    >
+                                        Private Office
+                                    </p>
+                                    <p
+                                        class="mt-[20px] font-(family-name:--font-family-primary) text-[16px] font-normal leading-[26px] text-[var(--color-text-desc)]"
+                                    >
+                                        Our coworking spaces are designed with
+                                        collaboration in mind.
+                                    </p>
+                                </li>
+                                <li
+                                    class="p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
+                                >
+                                    <div
+                                        class="w-[90px] h-[90px] bg-[#dcd9f3] flex items-center justify-center rounded-full mx-auto"
+                                    >
+                                        <img
+                                            src="./src/images/Icon-02.svg"
+                                            alt="Icon-02"
+                                        />
+                                    </div>
+                                    <p
+                                        class="mt-[38px] text-[22px] font-normal leading-[32px] -tracking-[1px] text-[#120F1F]"
+                                    >
+                                        Dedicated Desk
+                                    </p>
+                                    <p
+                                        class="mt-[20px] font-(family-name:--font-family-primary) text-[16px] font-normal leading-[26px] text-[var(--color-text-desc)]"
+                                    >
+                                        Our coworking spaces are designed with
+                                        collaboration in mind.
+                                    </p>
+                                </li>
+                                <li
+                                    class="relative p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
+                                >
+                                    <div
+                                        class="w-[90px] h-[90px] bg-[#dcd9f3] flex items-center justify-center rounded-full mx-auto"
+                                    >
+                                        <img
+                                            src="./src/images/Icon-03.svg"
+                                            alt="Icon-03"
+                                        />
+                                    </div>
+                                    <p
+                                        class="mt-[38px] text-[22px] font-normal leading-[32px] -tracking-[1px] text-[#120F1F]"
+                                    >
+                                        Hot Desk
+                                    </p>
+                                    <p
+                                        class="mt-[20px] font-(family-name:--font-family-primary) text-[16px] font-normal leading-[26px] text-[var(--color-text-desc)]"
+                                    >
+                                        Our coworking spaces are designed with
+                                        collaboration in mind.
+                                    </p>
+                                    <div
+                                        class="absolute max-sm:hidden -right-[70px] bottom-0 w-[60px] h-[60px] bg-[#4F77FF] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%]"
+                                    ></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-[70px] text-center">
+                            <button class="btn">View Our Services</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-[120px] pb-[120px]">
+                <div class="container">
+                    <div>
+                        <h3
+                            class="text-[36px] font-medium leading-[46px] -tracking-[1px] text-black text-center"
+                        >
+                            Working with the most trusted brands in the industry
+                        </h3>
+                        <ul
+                            class="sm:mt-[80px] mt-[60px] sm:flex items-center sm:justify-center md:gap-[105px] gap-[50px] space-y-20 sm:space-y-0"
+                        >
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        class="max-sm:mx-auto"
+                                        src="./src/images/google.svg"
+                                        alt="google"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        class="max-sm:mx-auto"
+                                        src="./src/images/neftlix.svg"
+                                        alt="netflix"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        class="max-sm:mx-auto"
+                                        src="./src/images/slack.svg"
+                                        alt="slack"
+                                    />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#!">
+                                    <img
+                                        class="max-sm:mx-auto"
+                                        src="./src/images/intercom.svg"
+                                        alt="intercom"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container-section-1">
+                    <div
+                        class="bg-[#F7F5F1] rounded-[20px] pt-[100px] pb-[100px] pr-[40px] pl-[40px] md:flex gap-[30px] justify-center items-center max-md:text-center space-y-10 md:space-y-0"
+                    >
+                        <div>
+                            <p
+                                class="text-[36px] font-medium leading-[46px] -tracking-[1px] text-[var(--color-text-heading)]"
+                            >
+                                Lockable office space for teams of all sizes
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-[70px] h-[70px] rounded-full flex items-center justify-center bg-[#886CFF] mx-auto"
+                            >
+                                <img
+                                    src="./src/images/Icon-04.svg"
+                                    alt="Icon-04"
+                                />
+                            </div>
+                            <div class="mt-[20px]">
+                                <p
+                                    class="text-[18px] font-medium leading-[28px] tracking-[0.4px] text-[var(--color-text-heading)]"
+                                >
+                                    Office Membership
+                                </p>
+                                <p
+                                    class="mt-[10px] font-(family-name:--font-family-primary) text-[16px] font-normal leading-[26px] text-[var(--color-text-desc)]"
+                                >
+                                    Book a day pass for a seat in our coworking
+                                    spaces with access to amenities.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div
+                                class="w-[70px] h-[70px] rounded-full flex items-center justify-center bg-[#4F77FF] mx-auto"
+                            >
+                                <img
+                                    src="./src/images/Icon-05.svg"
+                                    alt="Icon-05"
+                                />
+                            </div>
+                            <div class="mt-[20px]">
+                                <p
+                                    class="text-[18px] font-medium leading-[28px] tracking-[0.4px] text-[var(--color-text-heading)]"
+                                >
+                                    Meeting Rooms
+                                </p>
+                                <p
+                                    class="mt-[10px] font-(family-name:--font-family-primary) text-[16px] font-normal leading-[26px] text-[var(--color-text-desc)]"
+                                >
+                                    Book a day pass for a seat in our coworking
+                                    spaces with access to amenities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-[120px] pb-[130px]">
+                <div class="container">
+                    <div></div>
+                </div>
+            </section>
+        </main>
+
+        <!-- font-(family-name:--font-family-primary) -->
+    </body>
+</html>
