@@ -243,7 +243,7 @@
                         </p>
                         <div class="mt-[80px]">
                             <ul
-                                class="flex justify-center gap-[30px] max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1"
+                                class="relative flex justify-center gap-[30px] max-md:grid max-md:grid-cols-2 max-sm:grid-cols-1"
                             >
                                 <li
                                     class="p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
@@ -292,7 +292,7 @@
                                     </p>
                                 </li>
                                 <li
-                                    class="relative p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
+                                    class="p-[42px] text-center border-[1px] border-[#E7E5EA] rounded-[12px] shdow"
                                 >
                                     <div
                                         class="w-[90px] h-[90px] bg-[#dcd9f3] flex items-center justify-center rounded-full mx-auto"
@@ -313,10 +313,10 @@
                                         Our coworking spaces are designed with
                                         collaboration in mind.
                                     </p>
-                                    <div
-                                        class="absolute max-sm:hidden -right-[70px] bottom-0 w-[60px] h-[60px] bg-[#4F77FF] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%]"
-                                    ></div>
                                 </li>
+                                <!-- <div
+                                    class="absolute -right-[70px] bottom-0 w-[60px] h-[60px] bg-[#4F77FF] rounded-tl-[50%] rounded-tr-[50%] rounded-br-[50%] -z-20"
+                                ></div> -->
                             </ul>
                         </div>
                         <div class="mt-[70px] text-center">
@@ -442,7 +442,170 @@
 
             <section class="pt-[120px] pb-[130px]">
                 <div class="container">
-                    <div></div>
+                    <div
+                        class="md:flex gap-[130px] items-center space-y-10 md:space-y-0"
+                    >
+                        <div class="max-sm:text-center">
+                            <img
+                                class="h-[500px] object-cover rounded-[20px]"
+                                src="./src/images/img-01.jpg"
+                                alt="img-01"
+                            />
+                            <div
+                                class="mt-[40px] sm:flex justify-between space-y-5 sm:space-y-0"
+                            >
+                                <p
+                                    class="text-[22px] font-medium leading-[32px] -tracking-[1px] text-[var(--color-text-heading)]"
+                                >
+                                    229 West 36th Street. New York, USA.
+                                </p>
+                                <p
+                                    class="text-[22px] font-normal leading-[32px] -tracking-[1px] text-[var(--color-text-desc)]"
+                                >
+                                    From $49/mo
+                                </p>
+                            </div>
+                            <p
+                                class="mt-[25px] font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)]"
+                            >
+                                We’re prioritising the health and safety of all
+                                members and employees in our spaces so you can
+                                continue working with peace of mind.
+                            </p>
+                        </div>
+                        <div class="max-md:text-center">
+                            <p
+                                class="text-[42px] font-medium leading-[50px] -tracking-[2px] text-[var(--color-text-heading)]"
+                            >
+                                Featured office space locations
+                            </p>
+                            <p
+                                class="mt-[40px] font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)]"
+                            >
+                                Whether you’re an established enterprise or a
+                                scaling startup, find an office space that's
+                                right for you.
+                            </p>
+                            <div
+                                class="mt-[60px] flex items-center gap-[10px] max-md:justify-center"
+                            >
+                                <p
+                                    class="text-[15px] font-medium leading-[24px] -tracking-[0.3px] text-[#886CFF] uppercase"
+                                >
+                                    View All Buildings
+                                </p>
+                                <img
+                                    src="./src/images/arrow-right-purple.svg"
+                                    alt="arrow-right-purple"
+                                />
+                            </div>
+                            <div
+                                class="mt-[91px] flex items-center gap-[15px] max-md:justify-center"
+                            >
+                                <div
+                                    class="w-[56px] h-[56px] border-[1px] border-[#E7E5EA] flex items-center justify-center rounded-full shdow"
+                                >
+                                    <img
+                                        src="./src/images/arrow-left-gray.svg"
+                                        alt="arrow-left-gray"
+                                    />
+                                </div>
+                                <div
+                                    class="w-[56px] h-[56px] border-[1px] border-[#E7E5EA] flex items-center justify-center rounded-full shdow"
+                                >
+                                    <img
+                                        src="./src/images/arrow-right-gray.svg"
+                                        alt="arrow-right-gray"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-[#F7F5F1] pt-[110px] pb-[120px]">
+                <div class="container">
+                    <h2
+                        class="text-[48px] font-medium leading-[56px] -tracking-[2px] text-[var(--color-text-heading)] text-center"
+                    >
+                        <span
+                            class="bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text"
+                            >Office space</span
+                        >
+                        your way. Work wherever <br />
+                        business takes you
+                    </h2>
+                    <p
+                        class="mt-[30px] font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)] text-center"
+                    >
+                        From a single desk to a whole building. The choice is
+                        yours
+                    </p>
+                    <div class="mt-[80px] md:h-[700px] relative">
+                        <div
+                            class="md:absolute top-0 left-0 w-[570px] max-md:w-full max-lg:w-[480px] pt-[60px] pb-[40px] pr-[100px] pl-[100px] max-md:pl-[80px] max-md:pr-[80px] rounded-[20px] bg-[#ffffff] shdow z-10"
+                        >
+                            <p
+                                class="font-(family-name:--font-family-primary) text-[18px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-primary)]"
+                            >
+                                Office Space
+                            </p>
+                            <h3
+                                class="mt-[30px] text-[36px] max-lg:text-[30px] font-medium leading-[46px] -tracking-[1px] text-[var(--color-text-heading)]"
+                            >
+                                Flexible workspace designed around your needs
+                                and comfort
+                            </h3>
+                            <p
+                                class="mt-[30px] font-(family-name:--font-family-primary) text-[18px] max-lg:text-[16px] font-normal leading-[28px] -tracking-[0.3px] text-[var(--color-text-desc)]"
+                            >
+                                Whether you need a single desk or a whole
+                                building, we provide office space that’s
+                                flexible to your needs and fully customisable.
+                                Available for a day, or as long as you need.
+                            </p>
+                            <div class="mt-[40px] flex items-center gap-[5px]">
+                                <p
+                                    class="text-[14px] font-medium leading-[24px] -tracking-[0.3px] text-[var(--color-text-desc)] uppercase"
+                                >
+                                    Learn more
+                                </p>
+                                <img
+                                    src="./src/images/arrow-right-vector-gray.svg"
+                                    alt="arrow-right-vector-gray"
+                                />
+                            </div>
+                            <div
+                                class="mt-[55px] flex items-center justify-center gap-[5px]"
+                            >
+                                <div
+                                    class="w-[40px] h-[5px] bg-[#E7E5EA] rounded-full"
+                                >
+                                    <div
+                                        class="h-full w-1/2 bg-[#4F77FF] rounded-full"
+                                    ></div>
+                                </div>
+                                <div
+                                    class="w-[40px] h-[5px] bg-[#E7E5EA] rounded-full"
+                                ></div>
+                                <div
+                                    class="w-[40px] h-[5px] bg-[#E7E5EA] rounded-full"
+                                ></div>
+                            </div>
+                        </div>
+
+                        <img
+                            class="md:absolute top-12 right-20 max-lg:top-42 max-lg:right-12 w-[370px] h-[230px] max-lg:w-[300px] max-lg:h-[200px] max-md:w-full max-md:h-[350px] max-md:object-top max-md:mt-[20px] rounded-[20px] object-cover z-10 shdow"
+                            src="./src/images/img-02.jpg"
+                            alt="img-02"
+                        />
+                        <img
+                            class="md:absolute bottom-0 right-0 w-[870px] h-[450px] max-lg:w-[670px] max-lg:h-[350px] max-md:w-full max-md:mt-[20px] rounded-[20px] object-top object-cover"
+                            src="./src/images/img-03.jpg"
+                            alt="img-03"
+                        />
+                    </div>
                 </div>
             </section>
         </main>
